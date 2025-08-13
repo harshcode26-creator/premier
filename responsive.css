@@ -1,0 +1,289 @@
+@media (max-width:600px) {
+    .main{
+    height: 100%;
+    width: 100%;
+    padding-top: 1px;
+    overflow-x: hidden;
+    }
+
+    #nav{
+        padding: 0 5vw;
+    height: 7vh;
+    width: 100%;
+    margin-top: 10px;
+    }
+
+    #nav h1{
+        font-size: 7vw;
+        width: 30%;
+        justify-content: start;
+
+    }
+    #nav h1::after{
+        display: none;
+    }
+    #nav h1::before{
+        display: none;
+    }
+
+    #nav h2{
+        display: none;
+    }
+
+    #nav h3{
+        display: block;
+        width: 8%;
+        font-size: 6vw;
+    }
+
+    #center{
+        height: 35%;
+    }
+
+
+    #overlay{
+        height: 50%;
+        padding: 4vw;
+    }
+
+    #overlay1{
+        height: 50%;
+    }
+    #overlay1 h1{
+        font-size: 6vw;
+    }
+
+    #overlay1 h2{
+        height: 11vw;
+        width: 11vw;
+    }
+
+    #overlay2{
+        height: 50%;
+        margin-top: 10px;
+    }
+    #overlay2 h2{
+        font-size: 4vw;
+    }
+    #overlay2 img{
+        height: 12vw;
+        width: 12vw;
+    }
+
+    #scroll{
+        height: 30vw;
+        width: 100%;
+    }
+
+    #container{
+        height: 100%;
+        width: 201%;
+        animation-duration: 12s;
+    }
+    #container img{
+        width: 15.5%;
+    }
+
+    #alpha{
+        margin-top: 30px;
+        height: 7vh;
+        width: 100%;
+        padding: 3vw;
+        justify-content: start;
+        gap: 0.1vw;
+        overflow-x: auto;
+    }
+
+    #alpha h5{
+        font-size:  4.5vw;
+    }
+
+    #shot{
+        height: 40%;
+    }
+
+    #right{
+        padding: 0 0 0 4vw;
+    }
+
+    #text{
+        gap: 10px;
+    }
+
+    #text h1{
+        font-size: 2.4vw;
+
+    }
+    #text h2{
+        font-size: 1.8vw;
+    }
+
+    #vogue{
+        padding: 1vw 6vw;
+    }
+
+    #follow{
+        height: 40%;
+        padding: 2vw 6vw;
+    }
+    #r{
+        width: 50%;
+    }
+
+    #curved{
+        height: 100%;
+        width: 50%;
+        position: relative;
+    }
+    #cur{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    #i{
+        width: 7vw;
+    }
+    #curved h2{
+        font-size: 2.5vw;
+    }
+
+    #update{
+        height: 50%;
+        padding: 7vw 4vw 5vw 4vw;
+    }
+    #update>h2{
+        margin-top: 3vw;
+        font-size: 6vw;
+        margin-bottom: 3vh;
+    }
+
+    .elem{
+        height: 9vh;
+        padding: 0 2vw;
+    }
+
+    .elem img{
+        height: 90%;
+        width: 80px;
+        left: 20%;
+        opacity: 1;
+    }
+
+    .elem:nth-child(2n) img{
+        left:20%;
+    }
+
+    .elem h4{
+        font-size: 3vw;
+        width: 6%;
+        color: #2c2b2b;
+    }
+
+    .elem2{
+        width: 43%;
+    }
+
+    .elem2 h2{
+        font-size: 4vw;
+    }
+    .elem2 h5{
+        font-size: 2vw;
+    }
+
+
+    #movie-shot{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        padding: 5vw 6vw 0 6vw;
+    }
+    #movie-shot-right{
+        height: 100%;
+        width: 50%;
+        padding-left: 2vw;
+        position: relative;
+    }
+
+    #movie-shot-right h2{
+        font-size: 5vw;
+        -webkit-text-stroke: 0.5px black;
+    }
+    #movie-shot-right h5{
+        width: 70%;
+        font-size: 3vw;
+    }
+    #movie-shot-right p{
+        font-size: 2.5vw;
+    }
+
+    #movie-shot-right-img #img1{
+        object-position: 70% 70%;
+    }
+
+    #text-scroll{
+        margin-top: 4vh;
+        height: 8vw;
+    }
+    #text-scroll h1{
+        font-size: 5vw;
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px black;
+        color: #000000cd;
+        font-family: Arial, Helvetica, sans-serif;
+        animation-duration: 4s;
+    }
+
+#footer{
+    margin-top: 10vw;
+    height: 18%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+}
+
+
+#footer>h1{
+    font-size: 6.7vw;
+}
+
+
+#footer h1::after{
+    font-size: 3.4vw;
+    right: 19%;
+    top: 4%;
+}
+#footer h1::before{
+    content: "Model Management";
+    font-size: 1.8vw;
+    right: 20%;
+    top: 21%;
+    letter-spacing: 0;
+    color: #373535;
+}
+
+#footer h2{
+    display: none;
+}
+
+
+#footer h3{
+    padding: 3vw;
+    font-size: 3.8vw;
+}
+
+
+#footer-text{
+    padding: 3vw;
+    grid-column: 2;
+}
+
+#footer-text p{
+    margin-top: 2.5vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+    width: 90%;
+}
+}
