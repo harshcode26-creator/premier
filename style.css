@@ -7,7 +7,7 @@
 html, body{
     height: 100%;
     width: 100%;
-    background-color: beige;
+    background-color: #ededed4f;
 }
 .main{
     height: 100%;
@@ -583,4 +583,5 @@ html, body{
 #extra{
     height: 20px;
     width: 100%;
+
 }
