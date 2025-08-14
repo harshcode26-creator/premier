@@ -37,7 +37,7 @@
     }
 
     #center{
-        height: 35%;
+        height: 40%;
     }
 
 
@@ -77,11 +77,11 @@
 
     #container{
         height: 100%;
-        width: 201%;
+        width: 175%;
         animation-duration: 12s;
     }
     #container img{
-        width: 15.5%;
+        width: 15%;
     }
 
     #alpha{
@@ -286,4 +286,5 @@
     font-weight: 600;
     width: 90%;
 }
+
 }
